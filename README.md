@@ -131,12 +131,12 @@ If you have a federated ID, use ibmcloud login --sso to log in to the IBM Cloud 
 
 4. Install the Container Registry plug-in.
 ```
-ibmcloud plugin install container-registry -r Bluemix
+ibmcloud plugin install container-registry -r 'IBM Cloud'
 ```
 
 5. Install the Container Service plug-in.
 ```
-ibmcloud plugin install IBM-Containers -r Bluemix
+ibmcloud plugin install container-service -r 'IBM Cloud'
 ```
 
 6. [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl)
